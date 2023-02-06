@@ -1,84 +1,261 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Is anyone there?",
-        "Hello",
-        "Good day"
-      ],
-      "responses": [
-        "Hey :-)",
-        "Hello, thanks for visiting",
-        "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
-      "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
-      ]
-    }
-  ]
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Welcome dear friend",
+                "Nice to meet you",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "Courses",
+            "patterns": [
+                "Which cources  do you offer online?",
+                "What is NESA in full?",
+                "is there any new job?",
+                "can i take an online exam? "
+                
+            ],
+            "responses": [
+                "We offer all kind of cources",
+                "Yes. please visit MIFOTRA link to see our job",
+                "National Examination and School Inspection Authority",
+                "Yes ofcouse"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Tell me a joke!",
+                "Tell me something funny!",
+                "Do you know a joke?"
+            ],
+            "responses": [
+                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+                "What did the buffalo say when his son left for college? Bison."
+            ]
+        },
+        {
+            "tag": "Online Services",
+            "patterns": [
+                "how to get Online Services?",
+                "how can i find Online Services?",
+                "Where do you get Online Services?",
+                "What is the link to the Online Services?",
+                "How do you get Online Services?",
+                "Guide me to Online Services?"
+            ],
+            "responses": [
+                "you can use this link https://smser.benax.rw/services/nesa/?service=home for more info."
+                
+            ]
+        },
+        {
+            "tag": "Responsibilities",
+            "patterns": [
+                "give me the responsibilities of NESA?",
+                "how to get the responsibilities of NESA?",
+                "Where to find the responsibilities of NESA?",
+                "What are the responsabilities of nesa?"
+                
+            ],
+            "responses": [
+                "To set standards for accreditation of private basic education schools and TVET schools from level one (1) to five (5)",
+                "To monitor the implementation of norms and standards in public, Government subsidized and private basic education and TVET schools from level one (1) to five (5",
+                "To ensure the quality of education in public, Government subsidized and private basic education and TVET schools from level one (1) to five (5)",
+                "To prepare, conduct and mark national examinations",
+                "To publish national examinations results;",
+                "To orient students of primary and ordinary level schools who passed the national examinations"
+            ]
+        },
+        {
+            "tag": "Powers",
+            "patterns": [
+                "show me the ppower of NESA",
+                "how to find the power of NESA?",
+                "how to get the power of NESA?",
+                "Where to find the power of NESA?",
+                "Guide me to the power of NESA"
+            ],
+            "responses": [
+                "award certificate to students who passed national examinations for basic education and level five (5) of TVET",
+                "grant accreditation to a private basic education school or a TVET school of level one (1) to five (5)",
+                "authorize a workplace to offer TVET trainings and certificate not more than level five (5)",
+                "suspend or close a school offering basic education or a TVET school of level one (1) to five (5) when considered necessary",
+                "equate and provide equivalence of certificates and degrees awarded by foreign schools offering basic education and TVET levels from level one (1) to five (5)."
+            ]
+        },
+        
+        {
+            "tag": "Address",
+            "patterns": [
+                "give me the address of NESA.",
+                "Guide me to the address of NESA",
+                "Show me the address of NESA?",
+                "can i see the address of NESA"
+                
+            ],
+            "responses": [
+                "Email: info@nesa.gov.rw",
+                "Twitter: @NESA_Rwanda",
+                "Address: KG17 Ave, Kigali",
+                "Toll free: 9070"
+            ]
+        },
+        {
+            "tag": "Department",
+            "patterns": [
+                "give me the departments of NESA?",
+                "how to get the department of nesa?",
+                "how can i find the department of nesa?",
+                "Wheret to get the department of nesa?",
+                "What is the link to the department of nesa?"
+                
+            ],
+            "responses": [
+                "1.Basic Education and TVET Examination Department",
+                "2.Basic Education and TVET Quality Assurance Department"
+            ]
+        },
+        {
+            "tag": "Missiion",
+            "patterns": [
+                "give me the mission of NESA.",
+                "how to get the mission of NESA",
+                "how can i find the mission of NESA",
+                "Where to get the mission of NESA?",
+                "Guide me to the mission of NESA"
+            ],
+            "responses": [
+                "Mission: The primary of NESA is to ensure quality of education in basic education and Technical and Vocational Education and Training (TVET) from level one (1) to five (5) and to regulate the comprehensive assessments of students and national examinations"
+                
+            ]
+        },
+        {
+            "tag": "Board",
+            "patterns": [
+                "Who is a general director of NESA?",
+                "general director of NESA?",
+                "tell me the general director of NESA?"
+                
+            ],
+            "responses": [
+                "General director of NESA: Dr Bernard BAHATI",
+                "Head of the Department for Basic Education and TVET Quality Assurance: Mr. KAVUTSE Vianney Augustine ",
+                "Ag. Head of Basic Education & TVET Examination Department: Mr. KANAMUGIRE Camille",
+                "Division Manager of BE and TVET Quality Standards: Mrs. BONEZA Angelique"
+                
+            ]
+        },
+        
+        {
+            "tag": "Remedial and catch up program",
+            "patterns": [
+                "give me a link of Remedial and catch up program",
+                "how to get Remedial and catch up program?",
+                "how can i find Remedial and catch up program?",
+                "Where do you get Remedial and catch up program?",
+                "What is the link to the Remedial and catch up program?",
+                "How do you get Remedial and catch up program?",
+                "Guide me to Remedial and catch up program?",
+                ""
+            ],
+            "responses": [
+                "you can use this link https://www.nesa.gov.rw/1/resources?tx_filelist_filelist%5Baction%5D=list&tx_filelist_filelist%5Bcontroller%5D=File&tx_filelist_filelist%5Bpath%5D=%2Fuser_upload%2FNESA%2FRessources%2FRemedial_and_catch_up_program%2F&cHash=3835ba02864b4e192a3d9743d951ae42 for more info.",
+                "Here is the link https://www.nesa.gov.rw/1/resources?tx_filelist_filelist%5Baction%5D=list&tx_filelist_filelist%5Bcontroller%5D=File&tx_filelist_filelist%5Bpath%5D=%2Fuser_upload%2FNESA%2FRessources%2FRemedial_and_catch_up_program%2F&cHash=3835ba02864b4e192a3d9743d951ae42",
+                ""
+            ]
+        },
+        {
+            "tag": "Resources",
+            "patterns": [
+                "give me a link of past papers",
+                "how to get past papers?",
+                "how can i find past papers?",
+                "Where do you get past papers?",
+                "What is the link to the past papers?",
+                "How do you get past papers?",
+                "Guide me to past papers?",
+                ""
+            ],
+            "responses": [
+                "you can use this link https://www.nesa.gov.rw/1/resources?tx_filelist_filelist%5Baction%5D=list&tx_filelist_filelist%5Bcontroller%5D=File&tx_filelist_filelist%5Bpath%5D=%2Fuser_upload%2FNESA%2FRessources%2FPast_Papers%2F&cHash=3f2af0fbf49ea29ad0efc62cedc1c400 for more info.",
+                "Here is the link https://www.nesa.gov.rw/1/resources?tx_filelist_filelist%5Baction%5D=list&tx_filelist_filelist%5Bcontroller%5D=File&tx_filelist_filelist%5Bpath%5D=%2Fuser_upload%2FNESA%2FRessources%2FPast_Papers%2F&cHash=3f2af0fbf49ea29ad0efc62cedc1c400"
+                
+            ]
+        },
+        {
+            "tag": "Model Questions",
+            "patterns": [
+                "give me a link of pModel Questions",
+                "how to get Model Questions?",
+                "how can i find Model Questions?",
+                "Where do you get Model Questions?",
+                "What is the link to the Model Questions?",
+                "How do you get Model Questions?",
+                "Guide me to Model Questions?",
+                ""
+            ],
+            "responses": [
+                "you can use this linkhttps://www.nesa.gov.rw/1/resources?tx_filelist_filelist%5Baction%5D=list&tx_filelist_filelist%5Bcontroller%5D=File&tx_filelist_filelist%5Bpath%5D=%2Fuser_upload%2FNESA%2FRessources%2FModel_Questions%2F&cHash=3c7efdc55cd1fc148c52dcf57b590a33 for more info.",
+                "Here is the link https://www.nesa.gov.rw/1/resources?tx_filelist_filelist%5Baction%5D=list&tx_filelist_filelist%5Bcontroller%5D=File&tx_filelist_filelist%5Bpath%5D=%2Fuser_upload%2FNESA%2FRessources%2FModel_Questions%2F&cHash=3c7efdc55cd1fc148c52dcf57b590a33"
+                
+            ]
+        },
+        
+        {
+            "tag": "IT request",
+            "patterns": [
+                "give me a link of IT request form?",
+                "how to get IT request form?",
+                "how can i get IT request form?"
+               
+                
+            ],
+            "responses": [
+                "you can use this link https://forms.office.com/pages/responsepage.aspx?id=6Bu6PsC0TkafMiwB9WiKyjVHtdxlU9FIrhyoBKZ3ggxUM0VEOUkwUjczVUU0MVoxTTFKUzBVMFVNRi4u for more info."
+            
+            ]
+        }
+        
+        
+    ]
 }
