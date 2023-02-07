@@ -1,6 +1,6 @@
 {
     "intents": [
-        {https://codebeautify.org/json-fixer#
+        {
             "tag": "greeting",
             "patterns": [
                 "Hi",
