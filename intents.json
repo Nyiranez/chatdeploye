@@ -1,6 +1,6 @@
 {
     "intents": [
-        {
+        {https://codebeautify.org/json-fixer#
             "tag": "greeting",
             "patterns": [
                 "Hi",
@@ -69,7 +69,7 @@
             ],
             "responses": [
                 
-                "National Examination and School Inspection Authority",
+                "National Examination and School Inspection Authority"
                 
             ]
         },
