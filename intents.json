@@ -49,16 +49,28 @@
             "tag": "Courses",
             "patterns": [
                 "Which cources  do you offer online?",
-                "What is NESA in full?",
-                "is there any new job?",
-                "can i take an online exam? "
+    
+                "can i take an online cource?"
                 
             ],
             "responses": [
                 "We offer all kind of cources",
                 "Yes. please visit MIFOTRA link to see our job",
-                "National Examination and School Inspection Authority",
+                "",
                 "Yes ofcouse"
+            ]
+        },
+         {
+            "tag": "About",
+            "patterns": [
+               "tell me about NESA.",
+                " What is about NESA in full word?"
+                
+            ],
+            "responses": [
+                
+                "National Examination and School Inspection Authority",
+                
             ]
         },
         {
